@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="home">
+      <h1 class="titulo">Calculadora!</h1>
+    </section>  
+
+    <section id="sobre">
+      <h3 class="subtitulo">Sobre</h3>
+      <p>Calculadora Desenvolvida por Marco Junior com as tecnologias HTML, CSS e JavaScript.</p>
+    </section>  
+      
+    <section id="operação">
+      <h3 style="font-family: Arial, Helvetica, sans-serif;">As operações matemáticas são:</h3>
+
+      <ul>
+        <li >Adição [+]</li>
+        <li>Subtração [-]</li>
+        <li>Multiplicação [*]</li>
+        <li>Divisão [/]</li>
+      </ul>
+    </section>  
+    
+    <form>
+      <section id="input">
+        <label style="background-color: blanchedalmond;" for="primeiro número.">Primeiro Número:</label>
+        <input class="input"
+        id="primeiro_numero"
+        nome="Primeiro Número"
+        placeholder="Digite o 1º Número"
+        type="number"/><br/>
+
+        <label style="background-color: antiquewhite;" for="segundo número">Segundo Número:</label>
+        <input class="input"
+        id="segundo_numero"
+        name="Segundo Número"
+        placeholder="Digite o 2º Número"
+        type="Number"/></br></br>
+      </section>
+
+      <section id="op">
+        <option disabled>Selecione uma Operação</option>
+        <select name="operacao" id="operacao">
+        <option value="adicao"> Adição</option>
+        <option value="subtracao"> Subtração</option>
+        <option value="multiplicacao"> Multiplicação</option>
+        <option value="divisao"> Divisão</option>
+        </select> 
+      </section></br></br>
+
+      <button id="botao" type="submit">calcular</button><br/>
+    </form></br>
+
+    <div style="background-color: cadetblue; font-family: 'Arial', sans-serif;" id="resultado-calculo"></div>
+    <script src="script.js"></script>
+    
+      
+  </body>
+
+</html>

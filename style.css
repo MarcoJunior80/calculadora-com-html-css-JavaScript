@@ -1,0 +1,98 @@
+:root{
+    --laranja: #fca311;
+    --azul-escuro:#14213d;
+    --branco: #ffffff;
+    --cinza: #6c757d;
+    --preto: #000000;
+}
+
+.titulo{
+    font-size: 3em;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: var(--laranja);
+}
+
+.subtitulo{
+    font-size: 2em;
+    font-family: 'Arial', Helvetica, sans-serif;
+   
+}
+
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 1em;
+    background-image: url('./assets/imagens/calculadora.jpg');
+    background-position: center;
+    background-size: cover;
+    color: var(--laranja);
+    text-align: left;
+    
+}
+
+#sobre{
+    width: 100vw;
+    height: 25vh;
+    padding: 0 0.5em;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+#sobre p{
+    color: var(--branco);
+  
+}
+
+#operção{
+    width: 100vw;
+    height: 25vh;
+    padding: 0 1em;
+}
+
+#operação ul{
+    width: 100vw;
+    height: 15vh;
+    font-size: 1em;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Helvetica', sans-serif;
+  
+    
+}
+
+#op option{
+    font-size: 1em;
+    font-family: 'Helvetica', sans-serif; 
+    color: black;
+}
+
+#botao{
+    padding: 0 0.5;
+    font-size: 20px;
+    font-family:'Helvetica';
+    text-decoration:none;
+    cursor: pointer;
+    color: var(--branco);
+    background-color: rgb(155, 155, 155);
+    border: solid black 2px;
+    
+
+}
+
+.botao:hover{
+    background-color: var(--laranja);
+    transition: 1s;
+}
+
